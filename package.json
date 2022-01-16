@@ -1,6 +1,6 @@
 {
-  "name": "multiple-cursor-same-case",
-	"displayName": "multiple-cursor-same-case",
+	"name": "multiple-cursor-same-case",
+	"displayName": "Multiple cursor same case",
 	"description": "",
 	"version": "0.0.1",
 	"engines": {
@@ -10,14 +10,16 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:multiple-cursor-same-case.helloWorld"
+		"onCommand:multiple-cursor-same-case.matchCaseCursor"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
-		"commands": [
+		"keybindings": [
 			{
-				"command": "multiple-cursor-same-case.helloWorld",
-				"title": "Hello World"
+				"command": "multiple-cursor-same-case.matchCaseCursor",
+				"key": "alt+d",
+				"mac": "alt+d",
+				"when": "editorHasSelection || editorHasMultipleSelections"
 			}
 		]
 	},
