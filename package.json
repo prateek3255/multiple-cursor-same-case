@@ -6,6 +6,10 @@
 	"engines": {
 		"vscode": "^1.63.0"
 	},
+	"repository": {
+		"url": "https://github.com/prateek3255/multiple-cursor-same-case.git",
+		"type": "git"
+	},
 	"categories": [
 		"Other"
 	],
