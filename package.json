@@ -2,7 +2,7 @@
 	"name": "multiple-cursor-same-case",
 	"displayName": "Multiple cursor same case",
 	"description": "",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
