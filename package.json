@@ -3,6 +3,7 @@
 	"displayName": "Multiple cursor same case",
 	"description": "",
 	"version": "1.0.0",
+	"publisher": "psuranas",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
