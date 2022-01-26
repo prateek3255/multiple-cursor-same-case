@@ -15,3 +15,7 @@ Under the hood all this extension does is toggle the case sensitivity before and
 ### 1.0.0
 
 Initial release Multiple cursor same case.
+
+### 1.0.1
+
+Update extension icon
